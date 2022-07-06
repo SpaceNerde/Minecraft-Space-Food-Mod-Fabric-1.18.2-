@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "spacefoodmod",
+  "version": "${version}",
+
+  "name": "Space's Food Mod",
+  "description": "This is a normal Food Mod",
+  "authors": [
+    "Space Nerd"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.spacenerd.spacefoodmod.Main"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
